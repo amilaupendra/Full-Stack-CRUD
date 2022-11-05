@@ -7,6 +7,7 @@ import AddUser from "./users/AddUser";
 import Dashboard from "./pages/Dashboard";
 import EditUser from "./users/EditUser";
 import ViewUser from "./users/ViewUser";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route exat path="/" element={<Home />} />
           <Route exat path="/adduser" element={<AddUser/>}/>
+          <Route exat path="/login" element={<Login/>}/>
           <Route exat path="/dashboard" element={<Dashboard/>}/>
           <Route exat path="/edituser/:id" element={<EditUser/>}/>
           <Route exat path="/viewuser/:id" element={<ViewUser/>}/>

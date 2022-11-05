@@ -9,7 +9,7 @@ export default function Home() {
         <h6>S17901 CS310 Assignment 3</h6>
         <h3>Sign in to view details</h3>
       </div>
-      <Link className="btn btn-primary" to="/dashboard">Sign in</Link>
+      <Link className="btn btn-primary" to="/login">Sign in</Link>
     </div>
   );
 }
